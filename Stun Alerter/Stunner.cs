@@ -83,7 +83,9 @@ namespace Stun_Alerter
             RegisterSpell("XinZhao", new List<SpellSlot> {SpellSlot.Q});
             RegisterSpell("Zac", new List<SpellSlot> {SpellSlot.E, SpellSlot.R});
             RegisterSpell("Ziggs", new List<SpellSlot> {SpellSlot.W});
+            RegisterSpell("Zilean"), new List<SpellSlot> {SpellSlot.Q});
             RegisterSpell("Zyra", new List<SpellSlot> {SpellSlot.R});
+            
         }
 
         private static void RegisterSpell(string champName, List<SpellSlot> spellSlots)
